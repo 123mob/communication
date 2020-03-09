@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.communication.CallActivity"
+
+    >
+
+
+    <EditText
+        android:id="@+id/callNumberTextView"
+        android:paddingBottom="5dp"
+        android:gravity="bottom|center"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:textSize="50sp"
+        android:textColor="#666666"
+        android:enabled="false"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/number1Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+
+            android:text="@string/number_one"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+        <Button
+            android:id="@+id/number2Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_two"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+        <Button
+            android:id="@+id/number3Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_three"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/number4Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_four"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+        <Button
+            android:id="@+id/number5Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_five"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+        <Button
+            android:id="@+id/number6Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_six"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/number7Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_seven"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+        <Button
+            android:id="@+id/number8Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_eight"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+        <Button
+            android:id="@+id/number9Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_nine"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/numberStarButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_star"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+        <Button
+            android:id="@+id/number0Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_zero"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+        <Button
+            android:id="@+id/numberSharpButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/number_sharp"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:alpha="0" />
+        <Button
+            android:id="@+id/callButton"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+
+            android:background="@drawable/call"
+            android:textColor="#ffffff"/>
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/action_clear"
+            android:background="@drawable/buttonstytle"
+            android:textColor="#666666"/>
+
+    </LinearLayout>
+
+</LinearLayout>
